@@ -48,7 +48,6 @@
   .image {
     display: flex;
     justify-content: center;
-    background-color: aqua;
   }
   #truck {
     display: flex;
