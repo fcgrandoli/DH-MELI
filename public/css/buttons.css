@@ -1,0 +1,71 @@
+@media only screen and (max-width: 369px) {
+  .show-btn-back {
+    display: none;
+  }
+}
+
+button {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px 10px;
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
+  background-color: #1259c3;
+  color: white;
+}
+
+a.nav-back {
+  display: flex;
+  padding: 10px 10%;
+}
+button:hover {
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: #0022aa;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 15px 15px;
+  font-size: 14px;
+  background-color: #ebebeb;
+}
+
+a.nav-button {
+  padding-left: 15px;
+  padding-right: 5px;
+}
+a.nav-button:link {
+  color: black;
+  text-decoration: none;
+}
+
+a.nav-button:visited {
+  color: black;
+}
+
+a.nav-button:hover {
+  color: black;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+a.nav-back:link,
+a.nav-back:visited,
+a.nav-submit:link,
+a.nav-submit:visited,
+a.nav-reset:link,
+a.nav-reset:visited {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  border: none;
+  font-weight: bold;
+  background-color: #1259c3;
+  color: white;
+}

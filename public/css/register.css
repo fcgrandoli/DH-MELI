@@ -1,0 +1,80 @@
+@media only screen and (min-width: 361px) {
+  * {
+    box-sizing: border-box;
+    font-family: 'Roboto';
+    margin: 0px;
+    padding: 0px;
+  }
+
+  input {
+    padding: 10px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    border: none;
+  }
+  header {
+    background-color: #eac926;
+  }
+
+  body {
+    background-color: #ebebeb;
+  }
+
+  label[for='name'],
+  label[for='email'],
+  label[for='user'],
+  label[for='address'],
+  label[for='password'] {
+    position: relative;
+    font-size: 12px;
+    top: 26px;
+    left: 5px;
+    padding-left: 5px;
+  }
+
+  label[for='birthdate'],
+  label[for='type'],
+  label[for='category'] {
+    position: relative;
+    font-weight: bold;
+    bottom: 5px;
+    padding: 10px 0px;
+  }
+
+  .name,
+  .user,
+  .email,
+  .addr,
+  .passwords,
+  .birthdate,
+  .profile,
+  .categories,
+  .userphoto {
+    margin: auto;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 12px 15px;
+  }
+
+  .categories {
+    padding: 10px 15px;
+  }
+
+  .categories-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+  }
+
+  .checkbox-text {
+    display: flex;
+    padding: 10px 0px;
+  }
+
+  label {
+    padding-left: 10px;
+  }
+}

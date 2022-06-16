@@ -1,0 +1,100 @@
+@media only screen and (min-width: 769px) {
+  * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+  }
+
+  main,
+  aside {
+    background-color: #eac926;
+    text-align: left;
+  }
+
+  .section-productos,
+  .section-ofertas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-between;
+    background-color: #ebebeb;
+  }
+  .producto {
+    display: flex;
+    position: relative;
+    width: 44%;
+    margin: 1% 2%;
+    flex-direction: column;
+    padding: 0px 0px;
+    background-color: #ebebeb;
+  }
+  .producto:hover {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+  }
+  .producto:hover #truck {
+    transform: rotateZ(-45deg);
+  }
+
+  .producto:hover > div .prd-name {
+    display: flex;
+    position: relative;
+    font-size: 16px;
+    color: #666;
+  }
+  .preview {
+    width: 100%;
+  }
+  .image {
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+  }
+  #truck {
+    display: flex;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    color: #39b54a;
+    border: 1px solid #39b54a;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    right: 30px;
+    top: -30px;
+    transition: transform 1s;
+  }
+  .description {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 15px;
+    background-color: white;
+    border-top: 1px solid #ebebeb;
+    line-height: 2;
+  }
+  .prd-name {
+    font-size: 16px;
+    color: #666;
+  }
+  h2 {
+    padding-left: 35px;
+    background-color: #ebebeb;
+    color: #666;
+  }
+
+  .price {
+    display: flex;
+    position: relative;
+    align-items: baseline;
+    font-weight: bold;
+    font-size: 18px;
+    width: 100%;
+  }
+  .disc {
+    width: 70%;
+    font-size: 16px;
+    padding-left: 10px;
+    color: #39b54a;
+  }
+}

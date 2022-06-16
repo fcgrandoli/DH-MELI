@@ -1,0 +1,32 @@
+@media only screen and (min-width: 361px) {
+  .footer-phone {
+    background-color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 20px;
+  }
+  .footer-tabdesk {
+    background-color: white;
+    text-align: center;
+    display: none;
+  }
+  .card,
+  .gift-box,
+  .shield {
+    font-size: 2em;
+    color: #1259c3;
+    margin-bottom: 10px;
+  }
+  .pay,
+  .gift,
+  .security {
+    padding: 30px 20px;
+  }
+
+  .copyright {
+    background-color: white;
+    padding: 10px 10px;
+  }
+}

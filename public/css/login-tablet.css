@@ -1,0 +1,90 @@
+@media only screen and (min-width: 769px) {
+  * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+  }
+
+  input {
+    padding: 10px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    border: none;
+  }
+
+  body {
+    background-color: #ebebeb;
+    height: 100%;
+  }
+
+  label[for='name'],
+  label[for='email'],
+  label[for='user'],
+  label[for='address'],
+  label[for='password'] {
+    position: relative;
+    font-size: 12px;
+    top: 26px;
+    left: 5px;
+    padding-left: 5px;
+  }
+
+  label[for='birthdate'],
+  label[for='type'],
+  label[for='category'] {
+    position: relative;
+    font-weight: bold;
+    bottom: 5px;
+  }
+
+  .user,
+  .passwords {
+    margin: auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 12px 15px;
+  }
+
+  .birthdate {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 5px 15px;
+  }
+
+  .profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 10px 15px;
+  }
+
+  .radios {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+  }
+
+  .categories {
+    padding: 10px 15px;
+  }
+
+  .categories-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 25px;
+  }
+
+  .checkbox-text {
+    display: flex;
+    padding: 10px 0px;
+  }
+
+  label {
+    padding-left: 10px;
+  }
+}

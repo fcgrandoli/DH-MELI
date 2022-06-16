@@ -1,0 +1,93 @@
+@media only screen and (min-width: 1200px) {
+  * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+  }
+
+  main,
+  aside {
+    background-color: #ebebeb;
+    text-align: justify;
+  }
+
+  .description {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 15px;
+    background-color: white;
+    border-top: 1px solid #ebebeb;
+    line-height: 2;
+  }
+  .image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .preview {
+    width: 100%;
+  }
+  .section-productos,
+  .section-ofertas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #ebebeb;
+  }
+  h2 {
+    padding-left: 35px;
+    background-color: #ebebeb;
+    color: #666;
+  }
+  #truck {
+    position: absolute;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    color: #39b54a;
+    border: 1px solid #39b54a;
+    background-color: #fff;
+    border-radius: 50%;
+    top: -28px;
+    right: 15px;
+    transition: transform 1s;
+  }
+  .producto:hover #truck {
+    transform: rotateZ(-45deg);
+  }
+  .producto {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin: 1% 2%;
+    padding: 0px 0px;
+    background-color: #ebebeb;
+  }
+  .producto:hover {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+  }
+  .prd-name {
+    display: none;
+  }
+  .producto:hover > div .prd-name {
+    display: flex;
+    font-size: 16px;
+    color: #666;
+  }
+  .price {
+    display: flex;
+    position: relative;
+    align-items: baseline;
+    font-weight: bold;
+    font-size: 18px;
+    width: 100%;
+  }
+  .disc {
+    width: 70%;
+    font-size: 16px;
+    padding-left: 10px;
+    color: #39b54a;
+  }
+}
