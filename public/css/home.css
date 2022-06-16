@@ -35,7 +35,7 @@
     justify-content: center;
   }
   #truck {
-    display: flex;
+    position: absolute;
     font-size: 16px;
     padding: 5px;
     width: 30px;
@@ -44,10 +44,8 @@
     border: 1px solid #39b54a;
     background-color: #fff;
     border-radius: 50%;
-    position: absolute;
-    right: 45px;
-    top: -92px;
-    transition: transform 1s;
+    bottom: 60px;
+    right: 48px;
   }
   .preview {
     width: 100%;
